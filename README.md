@@ -1,6 +1,6 @@
 # GTExpress
 
-GTExpress is a logistics company web application that provides users with an interface to search and view shipment details, and update shipment status and delivery information. The application is built with React and consumes a Spring REST API for data retrieval and manipulation. The web application provides features such as authentication and authorization for users, search and view shipments by ID, customer name, and status, and update shipment status and delivery information. The application uses JWT tokens for authentication and authorization, and the data is stored in a MongoDB NoSQL database for flexibility and scalability. Overall, GTExpress aims to provide a seamless logistics experience for its users, with efficient and user-friendly features for managing shipments.
+GTExpress is a logistics company web application that provides users with an interface to search and view shipment details, and update shipment status and delivery information. The application is built with React and consumes a Spring REST API for data retrieval and manipulation. The web application provides features such as authentication and authorization for users, search and view shipments by ID, customer name, and status, and update shipment status and delivery information. The application uses JWT tokens for authentication and authorization, and the data is stored in a PostgreSQL database for robustness and scalability. Overall, GTExpress aims to provide a seamless logistics experience for its users, with efficient and user-friendly features for managing shipments.
 
 ## Features
 The web application provides the following features:
@@ -22,7 +22,7 @@ API_BASE_URL=<API base URL>
 ```
 Replace `<API base URL>` with the base URL of the Spring REST API.
 
- * Running `yarn dev` to start the development server the application will start automatically in the browser.
+ * Running `yarn dev` to start the development server the application will launch automatically in the browser.
 
 ## Authentication and Authorization
 The web application uses JWT tokens for authentication and authorization. To log in, click the "Log in" button in the top right corner of the application and enter your credentials. If you don't have an account, click the "Register" button to create one.
